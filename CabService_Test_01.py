@@ -98,7 +98,7 @@ class Cabservice:
                 print(*run.VehicleList, sep="\n")
                 run.admin()
             elif run.systemoption == 3:
-                run.jobQueue()
+                print(*run.job, sep= "\n")
                 print("Contact Drivers")
                 run.admin()
             elif run.systemoption == 4:
